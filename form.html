@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Getting Input Using Forms</title>
+  </head>
+  <body>
+    <h4>Creating a Form For User Input</h4>
+    <form>
+      <div>
+        <label for="F_Name">Full Name</label>
+        <input type="text" placeholder="Enter Full Name" id="Name" />
+      </div>
+      <div>
+        <label for="Pass"> Password</label>
+        <input type="password" placeholder="Enter Password" id="Pass" />
+      </div>
+      <div>
+        <label for="F_color">Favourite Color</label>
+        <input type="radio" name="Fav" value="red" />red
+        <input type="radio" name="Fav" value="Yellow" />Yellow
+        <input type="radio" name="Fav" value="orange" />orange
+        <input type="radio" name="Fav" value="Blue" />Blue
+      </div>
+      <div>
+        <input name="country" list="countries" placeholder="Select Country" />
+        <datalist id="countries">
+          <option value="Pakistan"></option>
+          <option value="Chaina"></option>
+          <option value="US"></option>
+          <option value="UK"></option>
+          <option value="Dubai"></option>
+        </datalist>
+      </div>
+      <div>
+        <input type="submit" />
+      </div>
+    </form>
+  </body>
+</html>
