@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+
+}
+h1{
+    color: Green;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times;
+    border: 2px solid black;
+    text-align: center;
+}
+div{
+    background-color: orange;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: serif;
+    font-weight: lighter;
+}

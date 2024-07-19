@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New_Form</title>
+    <style>
+      body {
+        width: 500px;
+        margin: auto;
+      }
+      h1 {
+        color: rgb(8, 0, 62);
+      }
+      #form {
+        margin-top: 30px;
+        border: 2px solid black;
+        width: 250px;
+        height: 320px;
+        padding: 16px;
+        text-align: center;
+        border-radius: 20px;
+        background-color: rgb(107, 135, 234);
+      }
+      .p {
+        margin: 12px;
+        padding: 6px;
+      }
+      label {
+        color: rgb(8, 0, 62);
+        font-weight: bold;
+      }
+      input {
+        border: 1px solid black;
+        border-radius: 6px;
+        padding: 4px;
+      }
+      input[type="submit"] {
+        border: 1px solid black;
+        background-color: rgb(8, 0, 62);
+        color: white;
+        padding: 4px;
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="form">
+      <div>
+        <h1>User Information</h1>
+      </div>
+      <div class="p">
+        <label for="f_name">Full Name</label>
+        <input
+          type="text"
+          name="Full_Name"
+          id="Name"
+          placeholder="Enter Your Name"
+        />
+      </div>
+      <div class="p">
+        <label for="ph_number">Phone No</label>
+        <input
+          type="number"
+          name="ph_no"
+          id="Number"
+          placeholder="Enter Your Ph.No."
+        />
+      </div>
+      <div class="p">
+        <label for="e-mail">E_mail</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Your E-mail"
+        />
+      </div>
+      <div class="p">
+        <input type="submit" />
+      </div>
+    </div>
+  </body>
+</html>
